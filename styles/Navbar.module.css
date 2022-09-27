@@ -1,0 +1,12 @@
+.menu-container a {
+  padding-right: 1rem;
+}
+
+.menu-container {
+  padding-left: 1rem;
+}
+
+.active-link {
+  color: blue;
+  text-decoration: underline;
+}
