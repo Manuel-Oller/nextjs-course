@@ -1,4 +1,5 @@
 export default interface Props {
   title: string;
-  href : string;
+  href: string;
+  className?: string;
 }

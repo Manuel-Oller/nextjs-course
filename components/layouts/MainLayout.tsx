@@ -1,12 +1,12 @@
 import Props from "../../interfaces/layout.interface";
-import Navbar from "../Navbar";
-import MenuHead from "../MenuHead";
+import Navbar from "../ui/Navbar";
+import MenuHead from "../ui/MenuHead";
 import { NextPage } from "next";
 
-const Layout: NextPage<Props> = ({ children }) => {
+const Layout: NextPage<Props> = ({ children, title }) => {
   return (
     <>
-      <MenuHead />
+      <MenuHead title={title} />
       <Navbar />
       <main>{children}</main>
     </>
